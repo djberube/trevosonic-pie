@@ -35,7 +35,7 @@ and to run
 
 * If you have any issues building Sonic Pi on Linux please open up an
   issue on GitHub and we'll try our best to assist you:
-  https://github.com/sonic-pi-net/sonic-pi/issues
+  https://github.com/davidjberube/trevosonic-pie/issues
 * If you're running Raspberry Pi OS, please see our other help file
   `BUILD-RASPBERRY_PI.md` for more specific instructions.
 * These build instructions assume you're running under a Debian-based
@@ -89,21 +89,21 @@ _Note: if you would like to either try the unsupported development version, like
 then pull the latest from the `dev` branch. Otherwise stick to the `stable` branch or one of the tags._
 
 The easiest way of getting this is likely to be cloning from GitHub
-into a folder on your hard drive such as `~/Development/sonic-pi`:
+into a folder on your hard drive such as `~/Development/trevosonic-pie`:
 
 ```
-git clone https://github.com/sonic-pi-net/sonic-pi.git ~/Development/sonic-pi
+git clone https://github.com/davidjberube/trevosonic-pie.git ~/Development/trevosonic-pie
 ```
 
 If you don't have Git installed you should be able to download a `.zip`
 file of the latest commit or specific release (v3.3+) you'd like to
 build:
 
-https://github.com/sonic-pi-net/sonic-pi/archive/main.zip
+https://github.com/davidjberube/trevosonic-pie/archive/main.zip
 
 From now on these instructions will assume you downloaded the source
-into `~/Development/sonic-pi`. If you used a different location be sure to
-change any future references to `~/Development/sonic-pi` to your chosen location.
+into `~/Development/trevosonic-pie`. If you used a different location be sure to
+change any future references to `~/Development/trevosonic-pie` to your chosen location.
 
 
 ## 3. Running the Build
@@ -122,7 +122,7 @@ which will:
 Firstly, we need to change to the `app` directory at the root of the Sonic Pi repository:
 
 ```
-cd ~/Development/sonic-pi/app
+cd ~/Development/trevosonic-pie/app
 ```
 
 ### 3.2 Build All

@@ -93,5 +93,5 @@ a friend might use when explaining things to you.
 
 You cannot change the original English strings with Weblate. If you
 spot a mistake in the English texts, please [file an
-issue](https://github.com/samaaron/sonic-pi/issues) or correct it with
+issue](https://github.com/davidjberube/trevosonic-pie/issues) or correct it with
 a pull request here on github. Thanks!

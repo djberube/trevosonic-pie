@@ -2,7 +2,7 @@
 
 ## Main Source Code
 
-(contents of [app/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/app) directory)
+(contents of [app/](https://github.com/davidjberube/trevosonic-pie/tree/stable/app) directory)
 
 The MIT License (MIT)
 
@@ -33,13 +33,13 @@ Sonic Pi GUI binaries must comply with the terms of the GPL.
 
 ## Samples
 
-(contents of [etc/samples/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/samples))
+(contents of [etc/samples/](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/samples))
 
 All the bundled samples are individually licensed under a
 [CC0 1.0 Universal Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). They
 have been obtained from [freesound.org](http://freesound.org) and
 links to their sources can be found in the file
-[etc/samples/README.md](https://github.com/sonic-pi-net/sonic-pi/blob/main/etc/samples/README.md)
+[etc/samples/README.md](https://github.com/davidjberube/trevosonic-pie/blob/main/etc/samples/README.md)
 
 One exception is the samples prefixed with `arovane_`. These have been kindly donated by Uwe Zahn
 ([Arovane](https://arovane.bandcamp.com)) also under a CC0 license. Thanks Uwe!
@@ -48,7 +48,7 @@ One exception is the samples prefixed with `arovane_`. These have been kindly do
 
 ## Wavetables
 
-(contents of [etc/wavetables/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/wavetables)
+(contents of [etc/wavetables/](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/wavetables)
 
 All the bundled wavetable samples are individually licensed under a
 [CC0 1.0 Universal Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/). They
@@ -62,10 +62,10 @@ The font used in the GUI is [Hack](http://sourcefoundry.org/hack/) released unde
 
 ## Docs, Tutorial and Examples
 
-(contents of [etc/doc/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/doc) and [etc/examples](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/examples) directories)
+(contents of [etc/doc/](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/doc) and [etc/examples](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/examples) directories)
 
 All the examples (in
-[etc/examples](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/examples))
+[etc/examples](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/examples))
 and contents of the doc directory including the articles and the
 tutorial are copyright by Sam Aaron unless a specific author is stated
 with the comment `# coded by ...` in which case the copyright is
@@ -76,14 +76,14 @@ CC BY-SA 4.0 license:
 
 ## Synth Designs
 
-(contents of [etc/synthdefs/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/synthdefs) directory)
+(contents of [etc/synthdefs/](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/synthdefs) directory)
 
 The bundled synth designs (synthdefs) are licensed under the [MIT License](http://opensource.org/licenses/MIT) with the following exceptions, which are licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html):
 
-- [etc/synthdefs/designs/supercollider/bass_foundation.scd](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/synthdefs/designs/supercollider/bass_foundation.scd)
-- [etc/synthdefs/designs/supercollider/bass_highend.scd](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/synthdefs/designs/supercollider/bass_highend.scd)
-- [etc/synthdefs/designs/supercollider/winwood_lead.scd](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/synthdefs/designs/supercollider/winwood_lead.scd)
-- [etc/synthdefs/designs/supercollider/organ_tonewheel.scd](https://github.com/sonic-pi-net/sonic-pi/tree/stable/etc/synthdefs/designs/supercollider/organ_tonewheel.scd)
+- [etc/synthdefs/designs/supercollider/bass_foundation.scd](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/synthdefs/designs/supercollider/bass_foundation.scd)
+- [etc/synthdefs/designs/supercollider/bass_highend.scd](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/synthdefs/designs/supercollider/bass_highend.scd)
+- [etc/synthdefs/designs/supercollider/winwood_lead.scd](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/synthdefs/designs/supercollider/winwood_lead.scd)
+- [etc/synthdefs/designs/supercollider/organ_tonewheel.scd](https://github.com/davidjberube/trevosonic-pie/tree/stable/etc/synthdefs/designs/supercollider/organ_tonewheel.scd)
 
 See their source files for links to the original designs.
 
@@ -125,7 +125,7 @@ relevant licenses:
 
 ### Included Ruby Libraries for Spider Language Server
 
-(contents of [app/server/ruby/vendor/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/app/server/ruby/vendor))
+(contents of [app/server/ruby/vendor/](https://github.com/davidjberube/trevosonic-pie/tree/stable/app/server/ruby/vendor))
 
 - [ActiveSupport](https://github.com/rails/rails/tree/master/activesupport) - [MIT License](http://opensource.org/licenses/MIT)
 - [Blankslate](https://github.com/masover/blankslate) - [MIT License](http://opensource.org/licensesMIT)
@@ -199,7 +199,7 @@ relevant licenses:
 
 ### Included Javascript Libraries for Tau IO Server
 
-(contents of [app/server/beam/tau/assets/vendor/](https://github.com/sonic-pi-net/sonic-pi/tree/stable/app/server/beam/tau/assets/vendor)):
+(contents of [app/server/beam/tau/assets/vendor/](https://github.com/davidjberube/trevosonic-pie/tree/stable/app/server/beam/tau/assets/vendor)):
 
 - [Alpine.js](https://github.com/alpinejs/alpine) - [MIT License](http://opensource.org/licenses/MIT)
 - [topbar](http://buunguyen.github.io/topbar) - [MIT License](http://opensource.org/licenses/MIT)

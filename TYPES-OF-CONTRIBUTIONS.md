@@ -8,9 +8,9 @@ Here's a few ways you can help:
 
 ## Help with issues and pull requests on GitHub
 - Proof-reading pull requests. If a pull request contains plain text besides code, then spelling and grammar checks are always helpful. The default language is British English (en-GB).
-- Adding helpful comments to issues. [The list of issues on GitHub](https://github.com/sonic-pi-net/sonic-pi/issues) can often be quite large - this can become difficult for the core development team to manage, so comments that help to manage this are always welcome.
+- Adding helpful comments to issues. [The list of issues on GitHub](https://github.com/davidjberube/trevosonic-pie/issues) can often be quite large - this can become difficult for the core development team to manage, so comments that help to manage this are always welcome.
   This could include things like replying to folks:
-  - Reminders that (politely) point to our [troubleshooting guide](https://github.com/sonic-pi-net/sonic-pi/wiki/Troubleshooting-Issues)
+  - Reminders that (politely) point to our [troubleshooting guide](https://github.com/davidjberube/trevosonic-pie/wiki/Troubleshooting-Issues)
   - Help with filling out the issue templates
   - Pointers to existing issues that might already describe the same specific problem or request
   
@@ -19,8 +19,8 @@ Here's a few ways you can help:
   - Potential workarounds or ideas for solutions
 
 ## Raise a feature request
-If you have an idea for a new feature or enhancement, search the [Issues page](https://github.com/sonic-pi-net/sonic-pi/issues) or [the Sonic Pi features project board](https://github.com/orgs/sonic-pi-net/projects/1) first (someone might have raised it already!).
-If it's new after all, go ahead and [raise a feature request](https://github.com/sonic-pi-net/sonic-pi/issues/new/choose)!
+If you have an idea for a new feature or enhancement, search the [Issues page](https://github.com/davidjberube/trevosonic-pie/issues) or [the Sonic Pi features project board](https://github.com/orgs/sonic-pi-net/projects/1) first (someone might have raised it already!).
+If it's new after all, go ahead and [raise a feature request](https://github.com/davidjberube/trevosonic-pie/issues/new/choose)!
 
 You can also visit [the Sonic Pi community forum](https://in-thread.sonic-pi.net/) if you want to discuss your idea more informally.
 
@@ -35,6 +35,6 @@ For details, see [TRANSLATION.md](TRANSLATION.md)
 We're always interested in receiving fixes, new features and improvements for Sonic Pi - even more so in areas that the core team has been unable to focus on!
 
 If you don't have a specific bug-fix, new feature, or enhancement already in mind, you can always browse the
-[open issues](https://github.com/sonic-pi-net/sonic-pi/issues) or [the Sonic Pi features project board](https://github.com/orgs/sonic-pi-net/projects/1) on GitHub.
+[open issues](https://github.com/davidjberube/trevosonic-pie/issues) or [the Sonic Pi features project board](https://github.com/orgs/sonic-pi-net/projects/1) on GitHub.
 There's probably an issue you can help to fix, or feature request you can help build.
 For guidelines to keep in mind while you're preparing your contribution, see [CONTRIBUTING.md](CONTRIBUTING.md)

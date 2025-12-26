@@ -42,7 +42,7 @@ please drop by, say hello and ask lots of questions.
 
 
 ## GitHub
-*<https://github.com/sonic-pi-net/sonic-pi>*
+*<https://github.com/davidjberube/trevosonic-pie>*
 
 For developers interested in the full source code. The issue tracker is
 also hosted here.

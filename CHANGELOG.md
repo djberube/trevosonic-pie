@@ -1,4 +1,15 @@
 # History
+
+## Trevosonic Pie Fork
+
+This is the changelog for Trevosonic Pie, a fork of Sonic Pi.
+
+- [v0.1.0 'Pattern'](#v0.1.0), 24th December, 2025
+
+## Upstream Sonic Pi Releases
+
+Below are the upstream Sonic Pi releases from which this fork is derived.
+
 - [v4.6.0 'Tuplet'](#v4.6.0), 26th June, 2025
 - [v4.5.1 '8oh8'](#v4.5.1), 26th April, 2024
 - [v4.5.0 '808'](#v4.5.0), 18th Oct, 2023
@@ -33,6 +44,83 @@
 - [v2.1 'Core'](#v2.1), 21st Nov, 2014
 - [v2.0.1](#v2.0.1), 9th Sept, 2014
 - [v2.0 'Phoenix'](#v2.0), 2nd Sept, 2014
+
+<a name="v0.1.0"></a>
+
+## Version 0.1.0 'Pattern'
+
+### Defensive Programming Improvements (24th December 2025)
+
+* **Core Utilities Enhanced**
+  - Added comprehensive input validation to `util.rb` methods
+  - Improved `ensure_dir` with directory traversal protection and better error handling
+  - Enhanced `resolve_synth_opts_hash_or_array` with size limits and type checking
+  - Added recursion depth protection to `truthy?` method
+  - Improved `zipmap` with input validation and iteration limits
+  - Enhanced `merge_synth_arg_maps_array` with loop protection
+  - Added timeout and URL validation to `fetch_url`
+
+* **Allocator Robustness**
+  - Added comprehensive bounds checking to `Allocator` class
+  - Improved error messages for allocation failures
+  - Added memory allocation limits (max 1M allocations)
+  - Enhanced `BusAllocator` with input validation
+  - Added cleanup on allocation errors
+  - Thread-safe allocation tracking
+
+* **Buffer and Promise Safety**
+  - Added comprehensive input validation to `Buffer` initialization
+  - Enhanced `Buffer.free` with error handling
+  - Added timeout validation to `Promise.get`
+  - Improved `Promise.deliver!` with broadcast error handling
+  - Better error messages for promise operations
+
+* **Chord and Scale Validation**
+  - Enhanced chord degree resolution with comprehensive validation
+  - Added input validation for scale operations
+  - Improved error messages for invalid degrees and scales
+  - Added bounds checking for octave calculations
+
+* **Ruby Ecosystem Compatibility**
+  - Changed `Exception` to `StandardError` for better Ruby compatibility
+  - Improved error class hierarchy
+  - Enhanced method signatures with Ruby best practices
+  - Added frozen string literals where appropriate
+
+## Version 0.1.0 'Pattern'
+
+Welcome to v0.1.0 of Trevosonic Pie—the initial release of this Sonic Pi fork.
+
+This release represents the foundational rebranding from Sonic Pi to Trevosonic Pie, establishing
+the infrastructure for future enhancements focused on pattern-based live coding inspired by
+uzulang/strudel and other modern live coding environments.
+
+### Branding
+
+* Complete rebranding from Sonic Pi to Trevosonic Pie
+* Updated README with fork information and philosophy
+* Added upstream attribution and acknowledgments
+* Updated CHANGELOG to reflect fork history
+
+### Philosophy
+
+Trevosonic Pie aims to:
+* Maintain full compatibility with Sonic Pi code
+* Integrate pattern-based composition features inspired by strudel
+* Provide a more streamlined workflow for pattern-driven live coding
+* Preserve all the power and expressiveness of the original Sonic Pi
+
+### Future Roadmap
+
+Planned features for future releases include:
+* Pattern notation system inspired by uzulang/strudel
+* Mini-notation for terse musical sequences
+* Enhanced pattern transformations and combinators
+* Improved pattern visualization in the GUI
+* Additional samples and synths optimized for pattern-based composition
+
+This is the beginning of an iterative improvement process, building upon the excellent
+foundation provided by Sonic Pi and its community.
 
 <a name="v4.6.0"></a>
 

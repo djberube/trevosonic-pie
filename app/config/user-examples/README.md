@@ -29,7 +29,7 @@ change.
 ## Questions and Issues
 
 If you have any issues, then please report suspected bugs to GitHub
-issues: https://github.com/sonic-pi-net/sonic-pi/issues or ask any
+issues: https://github.com/davidjberube/trevosonic-pie/issues or ask any
 questions you might have on the community forums:
 https://in-thread.sonic-pi.net
 

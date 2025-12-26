@@ -11,7 +11,7 @@ their own version of Sonic Pi. If you're just looking to install it,
 we've already done all of this work for you and you can grab an
 installer for the latest release here:
 
-https://github.com/sonic-pi-net/sonic-pi/releases
+https://github.com/davidjberube/trevosonic-pie/releases
 
 If you're definitely sure you want to build your own release, then we
 really hope that these instructions help.
@@ -28,7 +28,7 @@ and to run
 
 * If you have any issues building Sonic Pi on Windows please open up an
   issue on GitHub and we'll try our best to assist you:
-  https://github.com/sonic-pi-net/sonic-pi/issues
+  https://github.com/davidjberube/trevosonic-pie/issues
 * The current build on Windows is assumed to be a 64 bit build done with
   Visual Studio 2019 (Community edition is fine).
 * If you're attempting to build 32 bit binaries, there are equivalent
@@ -148,20 +148,20 @@ Sonic Pi. We need to:
 
 Before we can build Sonic Pi we must first get a copy of the source
 code. The easiest way of getting this is likely to be cloning from GitHub
-into a folder on your hard drive such as `C:\dev\sonic-pi`:
+into a folder on your hard drive such as `C:\dev\trevosonic-pie`:
 
 ```
-git clone https://github.com/sonic-pi-net/sonic-pi.git C:\dev\sonic-pi
+git clone https://github.com/davidjberube/trevosonic-pie.git C:\dev\trevosonic-pie
 ```
 
 If you don't have Git installed you should be able to download a `.zip`
 file of the latest commit or specific release you'd like to build:
 
-https://github.com/sonic-pi-net/sonic-pi/archive/main.zip
+https://github.com/davidjberube/trevosonic-pie/archive/main.zip
 
 From now on these instructions will assume you downloaded the source
-into `C:\dev\sonic-pi`. If you used a different location be sure to
-change any future references to `C:\dev\sonic-pi` to your chosen location.
+into `C:\dev\trevosonic-pie`. If you used a different location be sure to
+change any future references to `C:\dev\trevosonic-pie` to your chosen location.
 
 
 ### 2.2 Link Ruby
@@ -178,7 +178,7 @@ your copy of Sonic Pi's source. For example, if you put Sonic Pi within
 following:
 
 ```
-cd C:\dev\sonic-pi\app\server\native
+cd C:\dev\trevosonic-pie\app\server\native
 mklink /d ruby C:\Ruby34-x64
 ```
 
@@ -199,7 +199,7 @@ which will:
 Firstly, we need to change to the `app` directory at the root of the Sonic Pi repository:
 
 ```
-cd C:\dev\sonic-pi\app
+cd C:\dev\trevosonic-pie\app
 ```
 
 
@@ -223,7 +223,7 @@ gui\Release\sonic-pi.exe
 Or from anywhere using the full path:
 
 ```
-C:\dev\sonic-pi\app\build\gui\Release\sonic-pi.exe
+C:\dev\trevosonic-pie\app\build\gui\Release\sonic-pi.exe
 ```
 
 

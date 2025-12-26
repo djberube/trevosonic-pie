@@ -9,7 +9,7 @@ If you're already familiar with the terminal and running shell scripts,
 etc., you can fetch, build and start Sonic Pi with the following:
 
 ```
-git clone https://github.com/sonic-pi-net/sonic-pi.git
+git clone https://github.com/davidjberube/trevosonic-pie.git
 cd sonic-pi/app
 ./pi-setup.sh
 ./pi-build-all.sh
@@ -46,7 +46,7 @@ clicking on the Raspberry Pi logo and then Accessories -> Terminal.
 
 * If you have any issues building Sonic Pi on Raspberry Pi OS please
   open up an issue on GitHub and we'll try our best to assist you:
-  https://github.com/sonic-pi-net/sonic-pi/issues
+  https://github.com/davidjberube/trevosonic-pie/issues
 * These build instructions assume you're running the latest 64bit version
   of Raspberry Pi OS based on Bookwork released in October 2023. You may therefore need to update your distribution before continuing.
 
@@ -56,23 +56,23 @@ clicking on the Raspberry Pi logo and then Accessories -> Terminal.
 The first thing we need to do is to grab a copy of Sonic Pi's source code.
 
 The easiest way of getting this is to clone from GitHub
-into a local folder such as `~/Development/sonic-pi`:
+into a local folder such as `~/Development/trevosonic-pie`:
 
 ```
-git clone https://github.com/sonic-pi-net/sonic-pi.git ~/Development/sonic-pi
+git clone https://github.com/davidjberube/trevosonic-pie.git ~/Development/trevosonic-pie
 ```
 
 By default this will check out the `dev` branch which contains all the
 most recent development work. If you'd like the latest stable release
 you'll need to checkout the `stable` branch with `cd
-~/Development/sonic-pi && git checkout stable`
+~/Development/trevosonic-pie && git checkout stable`
 
 From now on these instructions will assume you're in the `sonic-pi`
-directory. For example, if you cloned into `~/Development/sonic-pi` you
+directory. For example, if you cloned into `~/Development/trevosonic-pie` you
 can change into this directory with:
 
 ```
-cd ~/Development/sonic-pi
+cd ~/Development/trevosonic-pie
 ```
 
 ## 2. Fetch the Development Dependencies
